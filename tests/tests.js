@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-registerManualTests('chrome.bluetooth', function(rootEl, addButton) {
+exports.defineManualTests = function(rootEl, addButton) {
   addButton('Test getAdapter State', function() {
     chrome.bluetooth.getAdapterState(function(adapter) {
       logger(JSON.stringify(adapter));
@@ -53,4 +53,4 @@ registerManualTests('chrome.bluetooth', function(rootEl, addButton) {
     });
   });
 
-});
+};
