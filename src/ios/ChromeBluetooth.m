@@ -636,16 +636,12 @@
 
 @implementation ChromeBluetooth
 
-- (CDVPlugin*)initWithWebView:(UIWebView *)theWebView
+- (void)pluginInitialize
 {
-    self = [super initWithWebView:theWebView];
-    if (self) {
-        _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
-        _peripherals = [NSMutableDictionary dictionary];
-        _activePeripherals = [NSMutableSet set];
-        _isScanning = NO;
-    }
-    return self;
+    _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
+    _peripherals = [NSMutableDictionary dictionary];
+    _activePeripherals = [NSMutableSet set];
+    _isScanning = NO;
 }
 
 #pragma mark chrome.bluetooth implementations
