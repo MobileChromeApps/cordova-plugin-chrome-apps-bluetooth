@@ -12,6 +12,7 @@
   </engines>
 
   <name>Chrome Apps Bluetooth API</name>
+  <keywords>chrome,bluetooth</keywords>
   <repo>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-bluetooth.git</repo>
   <issue>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-bluetooth/issues</issue>
 
