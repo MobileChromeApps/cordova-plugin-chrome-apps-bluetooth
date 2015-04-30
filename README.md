@@ -11,6 +11,9 @@ Stable on Android and iOS.
 
 # Release Notes
 
+## 1.1.3 (April 30, 2015)
+- Renamed plugin to pubilsh to NPM
+
 ## 1.1.2 (Mar 17, 2015)
 * chrome.bluetooth: Fix crash in multi-page apps from `unregisterReceiver()`
 * Remove android.support.v4 dependency from chrome.bluetooth
