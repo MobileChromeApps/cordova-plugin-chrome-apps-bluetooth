@@ -16,7 +16,7 @@
   <repo>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-bluetooth.git</repo>
   <issue>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-bluetooth/issues</issue>
 
-  <dependency id="cordova-plugin-chrome-apps-common" />
+  <dependency id="cordova-plugin-chrome-apps-common@1" />
 
   <js-module src="bluetooth.js" name="bluetooth">
     <clobbers target="chrome.bluetooth" />
