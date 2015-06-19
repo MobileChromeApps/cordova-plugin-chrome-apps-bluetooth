@@ -11,6 +11,9 @@ Stable on Android and iOS.
 
 # Release Notes
 
+## 1.1.4 (June 19, 2015)
+- Fixed NPE on Nexus 6 (and maybe others)
+
 ## 1.1.3 (April 30, 2015)
 - Renamed plugin to pubilsh to NPM
 
