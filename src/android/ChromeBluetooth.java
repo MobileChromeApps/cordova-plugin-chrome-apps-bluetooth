@@ -6,6 +6,7 @@ package org.chromium;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -259,7 +260,7 @@ public class ChromeBluetooth extends CordovaPlugin {
     }
 
     isLeScanning = true;
-    leScanner.startScan(null, settings, leScanCallback);
+    leScanner.startScan(Collections.EMPTY_LIST, settings, leScanCallback);
 
     isDiscovering = true;
     bluetoothAdapter.startDiscovery();
