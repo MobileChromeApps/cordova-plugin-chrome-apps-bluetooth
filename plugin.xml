@@ -38,9 +38,6 @@
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
     </config-file>
-    <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
-    </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <service
