@@ -11,6 +11,9 @@ Stable on Android and iOS.
 
 # Release Notes
 
+## 1.1.5 (Nov 10, 2015)
+- Added missing dependency on android suppport v4
+
 ## 1.1.4 (June 19, 2015)
 - Fixed NPE on Nexus 6 (and maybe others)
 
