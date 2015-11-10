@@ -25,6 +25,8 @@
   <platform name="android">
     <source-file src="src/android/ChromeBluetooth.java" target-dir="src/org/chromium" />
     <source-file src="src/android/libs/blescan.jar" target-dir="libs" />
+    <!-- Required by blescan.jar -->
+    <framework src="com.android.support:support-v4:+" />
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.WAKE_LOCK" />
